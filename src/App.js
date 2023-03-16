@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Form from "./Form";
 import List from "./List";
-import "./index.css";
+import "./App.css";
 
 export default function App() {
   const [messageList, setMessageList] = useState(["Milk", "Sugar", "Butter"]);
